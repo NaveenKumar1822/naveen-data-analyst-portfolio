@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Naveen Kumar K — Data Analyst Portfolio. SQL, Python, Power BI, and end-to-end analytics solutions." />
+  <title>Naveen Kumar K — Data Analyst</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Instrument Serif (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">NK<span>.</span></a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="hero__inner">
+
+      <!-- Left: Text Content -->
+      <div class="hero__content">
+        <p class="hero__label">Data Analyst</p>
+        <h1 class="hero__name">Naveen<br />Kumar K<span class="hero__dot">.</span></h1>
+        <p class="hero__tagline">Turning Data into Business Decisions</p>
+        <p class="hero__summary">
+          Building end-to-end analytics solutions with SQL, Python, and Power BI — transforming raw data into operational intelligence and stakeholder-ready insights.
+        </p>
+        <div class="hero__actions">
+          <!-- UPDATE href to your actual resume file path -->
+          <a href="Naveen_Kumar_Resume.pdf" download class="btn btn--primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download Resume
+          </a>
+          <a href="https://github.com/NaveenKumar1822/" target="_blank" rel="noopener" class="btn btn--outline">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/naveen840/" target="_blank" rel="noopener" class="btn btn--outline">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Photo + Floating Stats -->
+      <div class="hero__visual">
+        <div class="hero__photo-wrap">
+          <!-- REPLACE src with your actual profile photo filename, e.g. profile.jpg -->
+          <div class="hero__photo-placeholder" id="photoPlaceholder">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#bbb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            <p>Place profile photo here<br/><span>See instructions below</span></p>
+          </div>
+          <!-- Uncomment below and set src when you have a photo -->
+          <!-- <img src="profile.jpg" alt="Naveen Kumar K" class="hero__photo" /> -->
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <span class="hero__stat-num">3+</span>
+            <span class="hero__stat-label">End-to-End Projects</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">10K+</span>
+            <span class="hero__stat-label">Records Analyzed</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">5</span>
+            <span class="hero__stat-label">Core Tools</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="hero__scroll">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">01 / About</span>
+        <h2 class="section__title">Who I Am</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__text">
+          <p class="about__lead">
+            I am a Data Analyst passionate about uncovering insights hidden within complex datasets and translating them into business value.
+          </p>
+          <p>
+            My work spans supply chain analytics, SaaS growth analytics, and gaming behavior analysis — combining technical expertise with business understanding to solve operational and strategic challenges. Through project-based learning and practical implementation, I have developed a strong foundation in analytics workflows ranging from data collection and cleaning through to dashboard development and stakeholder reporting.
+          </p>
+          <p>
+            I specialize in SQL, Python, Power BI, data visualization, and exploratory data analysis, always approaching problems with a business-first mindset.
+          </p>
+        </div>
+        <div class="about__objective">
+          <div class="about__objective-card">
+            <p class="about__objective-label">Career Objective</p>
+            <p>
+              To contribute as a Data Analyst by helping organizations make informed decisions through data-driven insights, business intelligence solutions, and analytical problem-solving — while continuously expanding my expertise in analytics and data science.
+            </p>
+          </div>
+          <div class="about__details">
+            <div class="about__detail">
+              <span class="about__detail-label">Location</span>
+              <span>Chittoor, Andhra Pradesh, India</span>
+            </div>
+            <div class="about__detail">
+              <span class="about__detail-label">Availability</span>
+              <span>Open to Opportunities</span>
+            </div>
+            <div class="about__detail">
+              <span class="about__detail-label">Focus Areas</span>
+              <span>Supply Chain · SaaS · Product Analytics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">02 / Skills</span>
+        <h2 class="section__title">Technical Expertise</h2>
+      </div>
+      <div class="skills__grid">
+
+        <div class="skill-category">
+          <h3 class="skill-category__title">Programming</h3>
+          <ul class="skill-list">
+            <li class="skill-item">Python</li>
+            <li class="skill-item">SQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-category__title">Data Analysis</h3>
+          <ul class="skill-list">
+            <li class="skill-item">Pandas</li>
+            <li class="skill-item">NumPy</li>
+            <li class="skill-item">EDA</li>
+            <li class="skill-item">Data Cleaning</li>
+            <li class="skill-item">Statistical Analysis</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-category__title">Visualization</h3>
+          <ul class="skill-list">
+            <li class="skill-item">Power BI</li>
+            <li class="skill-item">Matplotlib</li>
+            <li class="skill-item">Seaborn</li>
+            <li class="skill-item">Plotly</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-category__title">Databases</h3>
+          <ul class="skill-list">
+            <li class="skill-item">MySQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-category__title">Business Intelligence</h3>
+          <ul class="skill-list">
+            <li class="skill-item">KPI Design</li>
+            <li class="skill-item">Funnel Analytics</li>
+            <li class="skill-item">Supply Chain Analytics</li>
+            <li class="skill-item">Product Analytics</li>
+            <li class="skill-item">Dashboard Development</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-category__title">Tools &amp; Technologies</h3>
+          <ul class="skill-list">
+            <li class="skill-item">Streamlit</li>
+            <li class="skill-item">Git &amp; GitHub</li>
+            <li class="skill-item">Jupyter Notebook</li>
+            <li class="skill-item">VS Code</li>
+            <li class="skill-item">Apache Parquet</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">03 / Projects</span>
+        <h2 class="section__title">Analytics Portfolio</h2>
+        <p class="section__subtitle">End-to-end data analytics projects solving real-world business problems across multiple industry domains.</p>
+      </div>
+
+      <div class="projects__list">
+
+        <!-- ── PROJECT 1 ── -->
+        <article class="project-card" id="project1">
+          <div class="project-card__header">
+            <div class="project-card__meta">
+              <span class="project-card__domain">Supply Chain Analytics</span>
+              <span class="project-card__index">01</span>
+            </div>
+            <h3 class="project-card__title">Nassau Candy Logistics Intelligence</h3>
+            <p class="project-card__overview">
+              A production-grade, end-to-end analytics pipeline designed to diagnose and expose systemic delivery failures across a multi-factory confectionery supply chain — processing over 10,000 shipment records across 196 unique geographic routes.
+            </p>
+          </div>
+
+          <div class="project-card__body">
+            <div class="project-card__col">
+              <div class="project-block">
+                <h4 class="project-block__label">Business Problem</h4>
+                <p>Operational reports contained severe data integrity anomalies and inaccurate lead-time calculations, making it impossible to identify true delivery bottlenecks and carrier performance issues at scale.</p>
+              </div>
+              <div class="project-block">
+                <h4 class="project-block__label">Analytical Approach</h4>
+                <p>Built a forensic data cleaning and decryption pipeline to restore data accuracy. Engineered a medallion-style analytics architecture and developed route-level performance intelligence to expose operational inefficiencies.</p>
+              </div>
+            </div>
+
+            <div class="project-card__col">
+              <div class="project-block">
+                <h4 class="project-block__label">Key Insights</h4>
+                <ul class="project-insights">
+                  <li>Reverse-engineered and corrected programmatic date offsets of up to <strong>1,634 days</strong></li>
+                  <li>Analyzed <strong>10,000+ shipment records</strong> across 196 geographic routes</li>
+                  <li>Computed Route Efficiency Scores (RES) and lead-time volatility metrics</li>
+                  <li>Built a Streamlit app for dynamic SLA monitoring and route analysis</li>
+                  <li>Leveraged gold-layer Parquet architecture for scalable performance</li>
+                </ul>
+              </div>
+              <div class="project-block">
+                <h4 class="project-block__label">Business Impact</h4>
+                <p>Enabled accurate operational reporting and route-level visibility, allowing stakeholders to identify bottlenecks, monitor carrier performance, and improve fulfillment decision-making.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card__footer">
+            <div class="project-card__stack">
+              <span class="tag">Python</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Streamlit</span>
+              <span class="tag">Plotly</span>
+              <span class="tag">Apache Parquet</span>
+            </div>
+            <!-- UPDATE href to your actual GitHub repo URL -->
+            <a href="https://github.com/NaveenKumar1822/" target="_blank" rel="noopener" class="btn btn--ghost">
+              View on GitHub
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- ── PROJECT 2 ── -->
+        <article class="project-card" id="project2">
+          <div class="project-card__header">
+            <div class="project-card__meta">
+              <span class="project-card__domain">Product &amp; Growth Analytics</span>
+              <span class="project-card__index">02</span>
+            </div>
+            <h3 class="project-card__title">NexaFlow SaaS Funnel Analytics</h3>
+            <p class="project-card__overview">
+              An end-to-end funnel intelligence project investigating user behavior across the SaaS lifecycle — from signup through activation, conversion, and churn — using a 10,000-user behavioral dataset.
+            </p>
+          </div>
+
+          <div class="project-card__body">
+            <div class="project-card__col">
+              <div class="project-block">
+                <h4 class="project-block__label">Business Problem</h4>
+                <p>Despite healthy acquisition numbers, only 20% of users converted into paid customers while platform churn remained significantly high — signaling critical friction points in the funnel.</p>
+              </div>
+              <div class="project-block">
+                <h4 class="project-block__label">Analytical Approach</h4>
+                <p>Conducted advanced SQL segmentation and behavioral cohort analysis to identify friction points, improve monetization efficiency, and uncover the primary drivers of retention across the full user lifecycle.</p>
+              </div>
+            </div>
+
+            <div class="project-card__col">
+              <div class="project-block">
+                <h4 class="project-block__label">Key Insights</h4>
+                <ul class="project-insights">
+                  <li>Activation identified as the <strong>strongest predictor</strong> of long-term retention</li>
+                  <li>Non-converted users churn at <strong>nearly twice the rate</strong> of paid users</li>
+                  <li>Day <strong>6–10 conversion window</strong> identified as the most critical retention lever</li>
+                  <li>Structural churn risk discovered within paid acquisition channels</li>
+                  <li>Built a 4-page Power BI dashboard with advanced DAX measures</li>
+                </ul>
+              </div>
+              <div class="project-block">
+                <h4 class="project-block__label">Business Impact</h4>
+                <p>Provided actionable recommendations for marketing budget allocation, funnel optimization, and customer retention strategy — directly addressing the 80% non-conversion gap.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card__footer">
+            <div class="project-card__stack">
+              <span class="tag">MySQL</span>
+              <span class="tag">Python</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Power BI</span>
+              <span class="tag">DAX</span>
+            </div>
+            <!-- UPDATE href to your actual GitHub repo URL -->
+            <a href="https://github.com/NaveenKumar1822/" target="_blank" rel="noopener" class="btn btn--ghost">
+              View on GitHub
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- ── PROJECT 3 ── -->
+        <article class="project-card" id="project3">
+          <div class="project-card__header">
+            <div class="project-card__meta">
+              <span class="project-card__domain">Gaming Industry Analytics</span>
+              <span class="project-card__index">03</span>
+            </div>
+            <h3 class="project-card__title">Player Behavior &amp; Retention Analytics</h3>
+            <p class="project-card__overview">
+              An exploratory data analysis project investigating player behavior patterns across thousands of game titles to understand lifecycle engagement, retention, and abandonment behavior using the RAWG API.
+            </p>
+          </div>
+
+          <div class="project-card__body">
+            <div class="project-card__col">
+              <div class="project-block">
+                <h4 class="project-block__label">Business Problem</h4>
+                <p>Game studios traditionally rely on ownership volume and sales metrics — which fail to accurately represent long-term player engagement and retention, leaving critical lifecycle gaps undiagnosed.</p>
+              </div>
+              <div class="project-block">
+                <h4 class="project-block__label">Analytical Approach</h4>
+                <p>Collected and analyzed gaming data from the RAWG API, engineered custom lifecycle KPIs, and investigated player retention patterns using behavioral analytics — building a lifecycle-focused framework that challenges legacy success metrics.</p>
+              </div>
+            </div>
+
+            <div class="project-card__col">
+              <div class="project-block">
+                <h4 class="project-block__label">Key Insights</h4>
+                <ul class="project-insights">
+                  <li>Engineered custom metrics: <strong>Completion Rate, Drop Rate, Engagement Rate</strong></li>
+                  <li>Review scores influence acquisition — but <strong>not retention</strong></li>
+                  <li>Early-stage player abandonment identified as the <strong>dominant retention challenge</strong></li>
+                  <li>Traditional unit-sales success metrics proven insufficient for lifecycle analysis</li>
+                  <li>Lifecycle-focused retention framework developed for studio decision-making</li>
+                </ul>
+              </div>
+              <div class="project-block">
+                <h4 class="project-block__label">Business Impact</h4>
+                <p>Provided strategic recommendations for onboarding optimization, retention improvement, and more effective allocation of development resources based on behavioral data rather than sales proxies.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card__footer">
+            <div class="project-card__stack">
+              <span class="tag">Python</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Matplotlib</span>
+              <span class="tag">Seaborn</span>
+              <span class="tag">RAWG API</span>
+            </div>
+            <!-- UPDATE href to your actual GitHub repo URL -->
+            <a href="https://github.com/NaveenKumar1822/" target="_blank" rel="noopener" class="btn btn--ghost">
+              View on GitHub
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CERTIFICATIONS ===================== -->
+  <section class="section certifications" id="certifications">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">04 / Certifications</span>
+        <h2 class="section__title">Credentials</h2>
+      </div>
+      <div class="certs__grid">
+
+        <!-- ADD or EDIT certifications here -->
+        <div class="cert-card">
+          <div class="cert-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="cert-card__body">
+            <h4 class="cert-card__title">Add Your Certification</h4>
+            <p class="cert-card__issuer">Issuing Organization · Year</p>
+            <p class="cert-card__note">Update this section with your actual certifications in index.html</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="cert-card__body">
+            <h4 class="cert-card__title">Add Your Certification</h4>
+            <p class="cert-card__issuer">Issuing Organization · Year</p>
+            <p class="cert-card__note">Update this section with your actual certifications in index.html</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="cert-card__body">
+            <h4 class="cert-card__title">Add Your Certification</h4>
+            <p class="cert-card__issuer">Issuing Organization · Year</p>
+            <p class="cert-card__note">Update this section with your actual certifications in index.html</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <section class="section education" id="education">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">05 / Education</span>
+        <h2 class="section__title">Academic Background</h2>
+      </div>
+      <div class="edu__card">
+        <div class="edu__left">
+          <span class="edu__year">2022 – 2025</span>
+        </div>
+        <div class="edu__right">
+          <h3 class="edu__degree">Bachelor of Computer Applications <span class="edu__abbr">(BCA)</span></h3>
+          <p class="edu__institution">Vignana Sudha Degree and P.G. College</p>
+          <p class="edu__location">Chittoor, Andhra Pradesh, India</p>
+          <div class="edu__tags">
+            <span class="tag">Data Structures</span>
+            <span class="tag">Databases</span>
+            <span class="tag">Programming</span>
+            <span class="tag">Computer Science</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">06 / Contact</span>
+        <h2 class="section__title">Get in Touch</h2>
+        <p class="section__subtitle">Open to data analyst and data science roles. Let's connect.</p>
+      </div>
+      <div class="contact__grid">
+
+        <a href="mailto:sknaveen148@gmail.com" class="contact-card">
+          <div class="contact-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </div>
+          <div class="contact-card__body">
+            <p class="contact-card__label">Email</p>
+            <p class="contact-card__value">sknaveen148@gmail.com</p>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/naveen840/" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </div>
+          <div class="contact-card__body">
+            <p class="contact-card__label">LinkedIn</p>
+            <p class="contact-card__value">linkedin.com/in/naveen840</p>
+          </div>
+        </a>
+
+        <a href="https://github.com/NaveenKumar1822/" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-card__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          </div>
+          <div class="contact-card__body">
+            <p class="contact-card__label">GitHub</p>
+            <p class="contact-card__value">github.com/NaveenKumar1822</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__name">Naveen Kumar K</p>
+      <p class="footer__copy">&copy; <span id="year"></span> · Built with purpose. Powered by data.</p>
+      <div class="footer__links">
+        <a href="https://github.com/NaveenKumar1822/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/naveen840/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:sknaveen148@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== JAVASCRIPT ===================== -->
+  <script>
+    // Dynamic year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Sticky nav shadow on scroll
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 40);
+    });
+
+    // Mobile hamburger toggle
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
+      navLinks.classList.toggle('open');
+    });
+
+    // Close mobile menu on link click
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('open');
+        navLinks.classList.remove('open');
+      });
+    });
+
+    // Active nav link on scroll (Intersection Observer)
+    const sections = document.querySelectorAll('section[id]');
+    const navAnchors = document.querySelectorAll('.nav__links a');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navAnchors.forEach(a => a.classList.remove('active'));
+          const active = document.querySelector(`.nav__links a[href="#${entry.target.id}"]`);
+          if (active) active.classList.add('active');
+        }
+      });
+    }, { threshold: 0.35 });
+    sections.forEach(s => observer.observe(s));
+  </script>
+
+</body>
+</html>
