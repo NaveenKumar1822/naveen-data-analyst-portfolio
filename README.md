@@ -119,7 +119,7 @@ https://github.com/NaveenKumar1822/
 
 Visit my portfolio website:
 
-[Add GitHub Pages URL]
+https://naveenkumar1822.github.io/naveen-data-analyst-portfolio/
 
 ---
 
