@@ -62,7 +62,7 @@ A production-grade analytics pipeline designed to diagnose delivery failures acr
 - Computed Route Efficiency Scores (RES).
 - Enabled SLA monitoring and operational visibility.
 
-**Repository:** [Add Repository Link]
+**Repository:** https://github.com/NaveenKumar1822/nassau-candy-logistics-intelligence
 
 ---
 
@@ -81,7 +81,7 @@ An end-to-end SaaS funnel analysis project investigating user behavior from sign
 - Evaluated acquisition channel performance.
 - Generated actionable monetization recommendations.
 
-**Repository:** [Add Repository Link]
+**Repository:** https://github.com/NaveenKumar1822/nexaflow-saas-funnel-analytics
 
 ---
 
@@ -99,7 +99,7 @@ An exploratory analysis of player behavior across thousands of game titles to un
 - Challenged traditional acquisition-focused success metrics.
 - Developed retention-focused business recommendations.
 
-**Repository:** [Add Repository Link]
+**Repository:** https://github.com/NaveenKumar1822/player-behavior-retention-analysis
 
 ---
 
